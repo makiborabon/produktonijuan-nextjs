@@ -2,15 +2,13 @@ import Head from 'next/head'
 import Link from 'next/link'
 
 
-
-
 export default function Home() {
   return (
-    <div className="container">
+    <div className='container'>
 
       <main>
         <h1 className="title">
-          Welcome to <a href="">produktonijuan!</a>
+          Working...
         </h1>
       </main>
 
@@ -23,12 +21,6 @@ export default function Home() {
           produktonijuan.com
         </a>
       </footer>
-
-      
-
-      <style jsx global>{`
-        
-      `}</style>
     </div>
   )
 }
